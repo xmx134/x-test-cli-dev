@@ -1,17 +1,29 @@
-15 error Error: Command failed with exit code 1: git remote update
-15 error git@github.com: Permission denied (publickey).
-15 error fatal: Could not read from remote repository.
-15 error
-15 error Please make sure you have the correct access rights
-15 error and the repository exists.
-15 error error: could not fetch upstream
-15 error From https://github.com/xmx134/x-test-dev
-15 error  * [new branch]      main       -> origin/main
-15 error Fetching upstream
-15 error Fetching origin
-15 error     at makeError (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\execa@5.1.1\node_modules\execa\lib\error.js:60:11)
-15 error     at module.exports.sync (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\execa@5.1.1\node_modules\execa\index.js:194:17)
-15 error     at Object.execSync (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+child-process@4.0.0\node_modules\@lerna\child-process\index.js:39:16)
-15 error     at updateRemote (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+version@4.0.0\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
-15 error     at isBehindUpstream (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+version@4.0.0\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
-15 error     at VersionCommand.initialize (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+version@4.0.0\node_modules\@lerna\version\index.js:153:9)
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\cli.js'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath D:\vue-code\x-test-dev
+3 info current version 0.0.0
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed with exit code 1: git remote update
+10 error git@github.com: Permission denied (publickey).
+10 error fatal: Could not read from remote repository.
+10 error
+10 error Please make sure you have the correct access rights
+10 error and the repository exists.
+10 error error: could not fetch upstream
+10 error Fetching upstream
+10 error Fetching origin
+10 error     at makeError (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\execa@5.1.1\node_modules\execa\lib\error.js:60:11)
+10 error     at module.exports.sync (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\execa@5.1.1\node_modules\execa\index.js:194:17)
+10 error     at Object.execSync (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+child-process@4.0.0\node_modules\@lerna\child-process\index.js:39:16)
+10 error     at updateRemote (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+version@4.0.0\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+10 error     at isBehindUpstream (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+version@4.0.0\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+10 error     at VersionCommand.initialize (D:\nvm\v20.9.0\node_modules\lerna\node_modules\.store\@lerna+version@4.0.0\node_modules\@lerna\version\index.js:153:9)
